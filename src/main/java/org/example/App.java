@@ -1,12 +1,24 @@
 package org.example;
 
 import org.example.ejercicios.Ejercicio5;
+import org.example.ejercicios.Ejercicio7;
 
 /**
  * Ejercicios Recursividad https://www.discoduroderoer.es/ejercicios-propuestos-y-resueltos-de-recursividad-java/
  */
 public class App
 {
+
+
+    public static void main( String[] args )
+    {
+        Ejercicio7 ejercicio7 = new Ejercicio7();
+
+        //ejercicio7.reverseRecursive(1234,0);
+        System.out.println(ejercicio7.reverseRecursive(123456,0));
+    }
+
+
 
     /**
      * Matriz 3X3 Example 1
@@ -18,7 +30,8 @@ public class App
      * 2  2  4
      * 6  6  9
      */
-    public static void main( String[] args )
+
+/*    public static void main( String[] args )
     {
         Ejercicio5 ejercicio5 = new Ejercicio5();
 
@@ -26,7 +39,7 @@ public class App
         int[][] matrix = {{2,4,4},{6,6,9}};
 
         ejercicio5.recursiveMatrix(matrix, 0,0);
-    }
+    }*/
 
 /*    public static void main( String[] args )
     {
